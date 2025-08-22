@@ -25,7 +25,7 @@ macro_rules! round0a {
     };
 }
 
-macro_rules! scheldule {
+macro_rules! schedule {
     ($i:literal, $e:literal) => {
         c!(
             "ld.w    $t5, $sp, (((" $i " - 3) & 0xF) * 4);"
