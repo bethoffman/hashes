@@ -155,7 +155,7 @@ macro_rules! fsb_impl {
                 subset_pi
             }
 
-            /// Vector XORing. Given the s input bits of the function, we derive a set of w indexes
+            /// Vector XORing. Given the input bits of the function, we derive a set of w indexes
             /// $(W_i)_{i\in[0;w-1]}$ between $0$ and $n - 1$. The value of each $W_i$ is computed
             /// from the inputs bits like this:
             /// $W_i = i \times (n / w) + IV_i + M_i \times 2^{r / w}.
