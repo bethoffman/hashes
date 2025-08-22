@@ -128,7 +128,7 @@ impl Sha1 {
 pub enum CollisionResult {
     /// No collision.
     Ok(Output<Sha1>),
-    /// Collision occurred, but was mititgated.
+    /// Collision occurred, but was mitigated.
     Mitigated(Output<Sha1>),
     /// Collision occurred, the hash is the one that collided.
     Collision(Output<Sha1>),
